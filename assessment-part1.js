@@ -166,7 +166,6 @@ var theAnswer = "Unknown";
 function promiseCatcher(param) {
   param.then( res => {
     theAnswer = res;
-    console.log(res);
     return res;
   })
 }
